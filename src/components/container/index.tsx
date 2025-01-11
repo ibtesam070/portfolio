@@ -11,7 +11,7 @@ const Container = ({ children, className }: ContainerProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className={`w-full flex-grow px-4 ${className || ""}`}>{children}</main>
+      <main className={`w-full flex-grow px-6 ${className || ""}`}>{children}</main>
       <Footer />
     </div>
   );

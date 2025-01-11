@@ -17,5 +17,8 @@ export const PROPERTYLOOP_ICON =
 export const DOTS_SVG = "https://svgsilh.com/svg/26432.svg";
 
 export const GITHUB_ACCOUNT_LINK = "https://github.com/ibtesam070";
-export const LINKEDIN_ACCOUNT_LINK = "https://www.linkedin.com/in/ibtesamansari";
+export const LINKEDIN_ACCOUNT_LINK =
+  "https://www.linkedin.com/in/ibtesamansari";
 export const EMAIL_ACCOUNT_LINK = "mailto:ibtesamansari070@gmail.com";
+
+export const PROFILE_PIC = "/image/profile.png";

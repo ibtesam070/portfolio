@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full flex p-5">
+    <header className="w-full flex p-5 fixed z-10 bg-black">
       <IALogo size="large" />
       <Sheet>
         <SheetTrigger asChild>

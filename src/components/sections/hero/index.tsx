@@ -15,7 +15,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className="relative flex flex-col pt-20">
+    <section className="relative flex flex-col pt-36">
       <p className="text-primary text-xl">Hey there!, I'm-</p>
       <p className="text-6xl font-bold">Ibtesam</p>
       <p className="text-6xl font-bold">Ansari.</p>
