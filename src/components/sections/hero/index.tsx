@@ -1,6 +1,5 @@
 import HoverText from "@/components/hover-text";
 import SocialButton from "@/components/social-button";
-import { Button } from "@/components/ui/button";
 import {
   EMAIL_ACCOUNT_LINK,
   GITHUB_ACCOUNT_LINK,
