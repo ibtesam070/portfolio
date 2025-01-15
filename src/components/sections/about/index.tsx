@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DOTS_SVG, PROFILE_PIC } from "@/constants/values";
 import Image from "next/image";
 import React from "react";
@@ -8,7 +7,7 @@ const AboutSection = () => {
     <section className="flex flex-col mt-20">
       <p className="text-2xl font-semibold">⚡ About Me</p>
       <p className="text-gray-400 text-sm mt-4">
-        Hey! I'm Ibtesam Ansari, a{" "}
+        Hey! I&apos;m Ibtesam Ansari, a{" "}
         <span className="text-primary">Full-Stack Engineer</span> with a strong
         passion for learning cutting-edge technologies and building impactful
         <span className="text-primary"> web applications</span>.
@@ -22,7 +21,7 @@ const AboutSection = () => {
         and productivity.
         <br />
         <br />
-        When I'm not coding, I enjoy playing video games 🎮, reading books 📖 or
+        When I&apos;m not coding, I enjoy playing video games 🎮, reading books 📖 or
         watching Netflix 🍿.
       </p>
       <div className="relative p-6">
