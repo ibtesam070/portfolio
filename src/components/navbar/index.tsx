@@ -60,11 +60,11 @@ const Navbar = () => {
                 Skills
               </Link>
             </SheetClose>
-            <SheetClose asChild>
+            {/* <SheetClose asChild>
               <Link href="#projects" className="my-5">
                 Projects
               </Link>
-            </SheetClose>
+            </SheetClose> */}
           </div>
         </SheetContent>
       </Sheet>

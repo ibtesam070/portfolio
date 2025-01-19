@@ -1,6 +1,7 @@
 import CareerCard from "@/components/career-card";
 import Timeline from "@/components/ui/timeline";
 import { CAREER_TIMELINE } from "@/constants/career";
+import { FaBriefcase } from "react-icons/fa6";
 import React from "react";
 
 const CareerSection = () => {
@@ -11,7 +12,11 @@ const CareerSection = () => {
   return (
     <section className="flex flex-col mt-20">
       <h1 className="text-2xl font-semibold">💼 My Career</h1>
-      <Timeline items={careerCards} className="mt-8" />
+      <Timeline
+        items={careerCards}
+        timelineIcon={<FaBriefcase className="text-white" />}
+        className="mt-8"
+      />
     </section>
   );
 };
