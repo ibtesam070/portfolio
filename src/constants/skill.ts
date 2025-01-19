@@ -32,7 +32,7 @@ export const SKILLS: ISkill[] = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
-    name: "Tailwindcss",
+    name: "Tailwind",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
   },
