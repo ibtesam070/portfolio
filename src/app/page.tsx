@@ -2,6 +2,7 @@ import Container from "@/components/container";
 import AboutSection from "@/components/sections/about";
 import CareerSection from "@/components/sections/career";
 import HeroSection from "@/components/sections/hero";
+import OutroSection from "@/components/sections/outro";
 import SkillSection from "@/components/sections/skill";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <AboutSection />
       <CareerSection />
       <SkillSection />
-      <div className="h-96" />
+      <OutroSection />
     </Container>
   );
 }
